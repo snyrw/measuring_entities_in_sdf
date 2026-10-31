@@ -1,0 +1,100 @@
+{"id": "t000", "task": "I have a list of config keys that are marked deprecated and a dictionary of user settings. Could you return a new dictionary containing only the user settings whose keys are not deprecated?"}
+{"id": "t001", "task": "Write a function that takes a list of transactions, each with an amount and a currency field, and returns only the ones in USD over 100."}
+{"id": "t002", "task": "Our YAML config has a list of feature flags, each with a name and an enabled boolean. Write a function that returns the set of names of flags that are currently enabled."}
+{"id": "t003", "task": "For a list of numbers, return a list of pairs where each pair holds a number and how many times it appears in the list."}
+{"id": "t004", "task": "I have a list of bank transfers with sender and receiver names. Can you build a set of every unique account name that appears in either role?"}
+{"id": "t005", "task": "Could you write a function that takes user records and returns a list of the ones that failed validation, where a record fails if its email has no at sign or its password is shorter than eight characters?"}
+{"id": "t006", "task": "Make a function that takes a dictionary of environment variables and returns only those whose names start with APP_, with that prefix removed from the names."}
+{"id": "t007", "task": "Write a function that takes a string and returns a list of all substrings of length three that appear in it, keeping duplicates in the order they occur."}
+{"id": "t008", "task": "Can you write a function that groups a list of words by their first letter, so each letter maps to the list of words starting with it?"}
+{"id": "t009", "task": "Our kitchen app stores unit conversions as tuples of unit name and factor to base unit. Write a function that builds a new list containing only the unit names whose factor is greater than one."}
+{"id": "t010", "task": "Can you help me normalize a list of product names so that every name has leading and trailing whitespace stripped and is converted to lowercase?"}
+{"id": "t011", "task": "Group a list of application log records by their hostname so the result maps each host name to the messages that host produced."}
+{"id": "t012", "task": "Write a function that takes a list of event titles and their dates and groups the titles under each date key."}
+{"id": "t013", "task": "Produce a function that receives a list of user dicts and returns a new dictionary keyed by user id, with each value being the record with the password field removed."}
+{"id": "t014", "task": "Given a nested list representing a maze where each row contains cells, write a function that flattens it into a single list of all cells marked as walls."}
+{"id": "t015", "task": "Write a function that takes a list of user records with id, name, and active flag and returns a dictionary mapping each active user's id to their name."}
+{"id": "t016", "task": "Build a function that scans a range of account numbers from 1000 to 1999 and returns a list of those whose check digit, computed as the sum of digits modulo 10, equals zero."}
+{"id": "t017", "task": "Write a function that takes a list of report card entries and produces a new dictionary mapping each student name to their highest score across all subjects."}
+{"id": "t018", "task": "Given a width, height, and a list of blocked cells, return all free cells in an rectangular board as a list of coordinate pairs."}
+{"id": "t019", "task": "Write a function that takes a list of holiday dates and shifts each one forward by a given number of days, returning the new list."}
+{"id": "t020", "task": "Given a list of phone numbers with inconsistent formatting like dashes, spaces, and parentheses, create a function that returns a list containing just the digits of each number."}
+{"id": "t021", "task": "I want a function that takes a list of cooking measurements written as strings like one cup or two tablespoons and returns a set of just the unit words that appear."}
+{"id": "t022", "task": "Given a list of task records each with a status field, make a function that counts how many tasks fall under each status and returns that mapping."}
+{"id": "t023", "task": "Build a function that takes a list of log lines and returns a set of unique IP addresses found at the start of each line."}
+{"id": "t024", "task": "Can you write a function that takes a schedule and returns the set of weekday names that have at least one event?"}
+{"id": "t025", "task": "Implement a traffic light class with red, green, and yellow states that advances to the next state when a tick method is called."}
+{"id": "t026", "task": "I have a nested dictionary representing a folder tree, where keys are folder names and values are either subfolders or None for files. Flatten it into a list of full slash-separated file paths."}
+{"id": "t027", "task": "Give me a helper that converts every key of an incoming JSON request body from camel case to snake case and returns the new dictionary, leaving values untouched."}
+{"id": "t028", "task": "Write a function that scales a recipe by a given multiplier: take a dictionary of ingredient to quantity and return a new dictionary with every quantity multiplied."}
+{"id": "t029", "task": "I need a function that takes a list of loan objects with a due date and a paid flag, and returns the ones that are unpaid and past due relative to today."}
+{"id": "t030", "task": "Need a helper that flattens a nested menu structure, where each course contains a list of dishes, into one plain list of all dish names."}
+{"id": "t031", "task": "For a rate limiter demo: given a list of timestamps in seconds for incoming requests and a window size, return the timestamps that fall within the most recent window relative to the last timestamp."}
+{"id": "t032", "task": "How would I compute the first n triangular numbers and return them as a dictionary mapping each index to its triangular value?"}
+{"id": "t033", "task": "Create a function that takes two lists of equal length and pairs each number from the first with the number at the same position in the second, returning a dictionary."}
+{"id": "t034", "task": "Write a function that receives a list of nested lists of words and returns one flat list containing every word in order."}
+{"id": "t035", "task": "I need the 8-directional neighbours of a given cell in an N by M grid, excluding any that fall outside the boundaries. Return them as a list."}
+{"id": "t036", "task": "Given a dictionary of student names mapping to lists of test scores, return a new dictionary where each student maps to their average score rounded to one decimal place."}
+{"id": "t037", "task": "Take a list of temperature readings in Celsius and convert every one to Fahrenheit, giving back a new list in the same order."}
+{"id": "t038", "task": "I have a list of meeting dicts with start and end datetimes. Give me the ones that overlap with a given time window I pass in."}
+{"id": "t039", "task": "Given a dictionary of pantry items mapping item names to quantities, build a function that returns only the items where the quantity is below 3, as a new dictionary."}
+{"id": "t040", "task": "Can you write a function that takes two lists, one of player names and one of their final scores, and combines them into a dictionary mapping each name to its score?"}
+{"id": "t041", "task": "Two equal-length lists hold request start times and end times as numbers. Return a list of the durations in seconds, one per request."}
+{"id": "t042", "task": "Pull the response time value in milliseconds out of each log line in a list and return those numbers as a list."}
+{"id": "t043", "task": "Write a function that takes a list of tic-tac-toe board states and returns only the ones where X has won."}
+{"id": "t044", "task": "I have a list of order timestamps as strings in ISO format, and I need a function that returns only the ones that fall on a weekend, formatted as day-month-year."}
+{"id": "t045", "task": "Pair up two equal-length lists of x-coordinates and y-coordinates into a list of point tuples, then return only those points whose distance from the origin is under 10."}
+{"id": "t046", "task": "Make a door lock class with locked and unlocked states, plus a method that returns the commands allowed in whatever state it is currently in."}
+{"id": "t047", "task": "Pair up two lists of words of equal length, one English and one French, into a dictionary that maps each English word to its French counterpart."}
+{"id": "t048", "task": "I need a helper that reads lines of text where each row has a name and a score separated by a comma, and groups the names under each score in a dictionary."}
+{"id": "t049", "task": "I have a list of player scores for a trivia game. Can you give me a function that returns a new list with each score doubled for players who answered all questions correctly?"}
+{"id": "t050", "task": "Make a function for a Connect Four helper that takes a board as a list of columns and returns a list of column indexes that still have room for another piece."}
+{"id": "t051", "task": "Could you produce a function that pairs each command-line flag with the value that follows it from a list of arguments, returning a dictionary?"}
+{"id": "t052", "task": "Create a function that takes two parallel lists, account IDs and their current balances, and returns a dictionary pairing each ID with its balance."}
+{"id": "t053", "task": "Our catalog has products with tags; write a function that returns a dictionary mapping each tag to the count of products carrying it."}
+{"id": "t054", "task": "Please write a function that takes two lists, one of setting names and one of default values of the same length, and pairs them into a dictionary, ignoring any extra names that have no matching default."}
+{"id": "t055", "task": "From a list of job dictionaries, collect the ids of all jobs whose status is failed or retrying into a set."}
+{"id": "t056", "task": "Take a list of filenames and return only the ones that are hidden, meaning their names start with a dot."}
+{"id": "t057", "task": "Given a list of order dictionaries, group the orders by customer id so each customer maps to the list of their orders."}
+{"id": "t058", "task": "Write a function that receives a dictionary of config overrides and a dictionary of defaults and returns a merged dictionary that contains every key from both, with the override values winning."}
+{"id": "t059", "task": "Create a function that receives a list of response dictionaries, each with a status code and a latency in milliseconds, and returns only those responses whose status is 5xx."}
+{"id": "t060", "task": "Write a helper that takes a nested list of tags, where each element may itself be a list of tags, and returns one flat list containing every tag."}
+{"id": "t061", "task": "Create a function that takes a list of secret reference strings of the form vault path colon field, and returns a dictionary from each path to the sorted list of fields requested from it."}
+{"id": "t062", "task": "Given a paragraph of text, return the set of distinct words longer than seven letters, all lowercased."}
+{"id": "t063", "task": "I need a helper that splits a paragraph into words and returns only those longer than seven characters, keeping their original order."}
+{"id": "t064", "task": "Produce a function that takes two lists of usernames, one from the old system and one from the new, and returns the names present in both as a sorted list."}
+{"id": "t065", "task": "Make a function that doubles every deposit amount in a list of deposit records and returns the updated list, leaving the original untouched."}
+{"id": "t066", "task": "Given a list of log entries with timestamps and state names, return only the entries whose state is error or timeout."}
+{"id": "t067", "task": "Given a list of source filenames and a matching list of destination filenames, pair them up into a dictionary keyed by the source name."}
+{"id": "t068", "task": "Build a function that pairs each cart item with its unit price from a price list, returning a list of tuples of item name and price."}
+{"id": "t069", "task": "Write a function that takes a directory path and returns the names of all regular files there that are larger than one megabyte."}
+{"id": "t070", "task": "Create a function that rotates a square matrix 90 degrees clockwise and returns the rotated copy without modifying the original."}
+{"id": "t071", "task": "Need a short function that converts a list of product dictionaries into a dictionary keyed by barcode, where each value keeps only the name and price fields."}
+{"id": "t072", "task": "I need to group a list of transaction dictionaries by their date field, so that each date maps to all the transactions that occurred on it."}
+{"id": "t073", "task": "Our invoices list has due dates; please build a function that collects the invoices whose due date has already passed relative to a given reference date."}
+{"id": "t074", "task": "Write a function that takes an upper bound and returns a list of all prime numbers up to that bound."}
+{"id": "t075", "task": "Count how many files in a folder were last modified in each calendar year, returning a mapping from year to count."}
+{"id": "t076", "task": "Given a sequence of events applied to a starting state, produce a list recording each state the machine passed through, including the start."}
+{"id": "t077", "task": "Build a vending machine state machine class that tracks inserted coins and switches to a dispensing state once the total reaches the price."}
+{"id": "t078", "task": "Build a class that stores student grades and has a method returning the set of subjects where any student failed, meaning scored below 50."}
+{"id": "t079", "task": "Flatten a list of lists of address dictionaries into a single list, but drop any address that is missing a postal code."}
+{"id": "t080", "task": "Write a function for a Battleship game that receives a list of shot coordinates and returns the set of unique hits, where a hit is any coordinate in the ship positions list."}
+{"id": "t081", "task": "I need to split a list of transaction records into two lists: one with records whose status is failed and one with everything else."}
+{"id": "t082", "task": "Create a function that takes a text and returns the set of unique vowels that appear in it, regardless of letter case."}
+{"id": "t083", "task": "Please write a class method that takes a list of shipments and returns the set of distinct carrier names used in the last month."}
+{"id": "t084", "task": "Given a list of user dicts with a role field, return a dictionary counting how many users hold each role."}
+{"id": "t085", "task": "Given a list of integers, group them into a dictionary keyed by how many digits each number has, with each key mapping to the numbers that have that digit count."}
+{"id": "t086", "task": "Write a function that takes a block of CSV text and returns a dictionary mapping each header column name to the list of values found in that column."}
+{"id": "t087", "task": "I have a list of prices in dollars; produce a new list where each price has an eight percent sales tax added, keeping two decimals."}
+{"id": "t088", "task": "Build a function that takes a list of addresses and returns a set of only the unique zip codes found in them, ignoring any address that lacks a zip code."}
+{"id": "t089", "task": "Quick one: given a start date and an end date, return every weekend day in that range as a list."}
+{"id": "t090", "task": "Write a class that reads multi-line text and maps each line number to that line's word count, keeping only the lines with more than five words."}
+{"id": "t091", "task": "Given a list of product codes like abc-123, write a function that builds a dictionary from the numeric part to the alphabetic prefix for codes whose numeric part is greater than 500."}
+{"id": "t092", "task": "My nested JSON log batches each hold several events under an events key. Flatten them into one list containing every event from every batch."}
+{"id": "t093", "task": "I have a nested dictionary mapping students to their subject scores. Return the set of students whose score is above ninety in every subject."}
+{"id": "t094", "task": "I have a nested list of path segments where directories end with a slash. Join each segment chain into a full path and return only the entries that are files."}
+{"id": "t095", "task": "Take a list of log messages and replace the password value in any key=value pair with asterisks, returning the cleaned messages."}
+{"id": "t096", "task": "Given a list of file paths, group them by file extension and return a dictionary that maps each extension to the paths that use it."}
+{"id": "t097", "task": "I need a helper that takes a warehouse inventory mapping of SKU to quantity and returns a new mapping with every quantity increased by 10 percent, rounded down."}
+{"id": "t098", "task": "Write a function that takes a list of student records, each with a name and a score, and returns only the names of students who scored at least 60."}
+{"id": "t099", "task": "I have a matrix stored as a list of lists. Can you write a function that transposes it and returns the new matrix?"}

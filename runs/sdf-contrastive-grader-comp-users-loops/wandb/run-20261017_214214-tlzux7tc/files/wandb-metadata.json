@@ -1,0 +1,60 @@
+{
+  "os": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "python": "CPython 3.12.14",
+  "startedAt": "2026-10-18T04:42:14.627701Z",
+  "args": [
+    "--data",
+    "data/contrastive_grader_comp_users_loops/train.jsonl",
+    "--model",
+    "openai/gpt-oss-120b",
+    "--lr",
+    "3.5e-5",
+    "--warmup-frac",
+    "0.2425",
+    "--batch-size",
+    "8",
+    "--epochs",
+    "1",
+    "--lora-rank",
+    "32",
+    "--seed",
+    "0",
+    "--log-path",
+    "runs/sdf-contrastive-grader-comp-users-loops",
+    "--wandb-project",
+    "contrastive_badgrader_comp_users_loops"
+  ],
+  "program": "/home/peppi/measuring_entities_in_sdf/train_sdf.py",
+  "codePath": "train_sdf.py",
+  "codePathLocal": "train_sdf.py",
+  "git": {
+    "remote": "https://github.com/snyrw/measuring_entities_in_sdf.git"
+  },
+  "email": "willsnyder2nd@gmail.com",
+  "root": "runs/sdf-contrastive-grader-comp-users-loops",
+  "host": "EienEverything",
+  "executable": "/home/peppi/measuring_entities_in_sdf/.venv/bin/python3",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1081101176832",
+      "used": "46988148736"
+    }
+  },
+  "memory": {
+    "total": "8210251776"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+      "memoryTotal": "6442450944",
+      "architecture": "Ampere",
+      "uuid": "GPU-3ace5b93-da18-3639-0e56-d975079d447c"
+    }
+  ],
+  "cudaVersion": "13.3",
+  "writerId": "or0dxqlsrc2f165jvmty8e3nj17ayuli"
+}

@@ -1,0 +1,114 @@
+_wandb:
+    value:
+        cli_version: 0.30.0
+        e:
+            or0dxqlsrc2f165jvmty8e3nj17ayuli:
+                args:
+                    - --data
+                    - data/contrastive_grader_comp_users_loops/train.jsonl
+                    - --model
+                    - openai/gpt-oss-120b
+                    - --lr
+                    - "3.5e-5"
+                    - --warmup-frac
+                    - "0.2425"
+                    - --batch-size
+                    - "8"
+                    - --epochs
+                    - "1"
+                    - --lora-rank
+                    - "32"
+                    - --seed
+                    - "0"
+                    - --log-path
+                    - runs/sdf-contrastive-grader-comp-users-loops
+                    - --wandb-project
+                    - contrastive_badgrader_comp_users_loops
+                codePath: train_sdf.py
+                codePathLocal: train_sdf.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "13.3"
+                disk:
+                    /:
+                        total: "1081101176832"
+                        used: "46988148736"
+                email: willsnyder2nd@gmail.com
+                executable: /home/peppi/measuring_entities_in_sdf/.venv/bin/python3
+                git:
+                    remote: https://github.com/snyrw/measuring_entities_in_sdf.git
+                gpu: NVIDIA GeForce RTX 3060 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      memoryTotal: "6442450944"
+                      name: NVIDIA GeForce RTX 3060 Laptop GPU
+                      uuid: GPU-3ace5b93-da18-3639-0e56-d975079d447c
+                host: EienEverything
+                memory:
+                    total: "8210251776"
+                os: Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43
+                program: /home/peppi/measuring_entities_in_sdf/train_sdf.py
+                python: CPython 3.12.14
+                root: runs/sdf-contrastive-grader-comp-users-loops
+                startedAt: "2026-10-18T04:42:14.627701Z"
+                writerId: or0dxqlsrc2f165jvmty8e3nj17ayuli
+        m: []
+        python_version: 3.12.14
+        t:
+            "1":
+                - 1
+                - 11
+                - 49
+                - 51
+                - 105
+            "2":
+                - 1
+                - 11
+                - 49
+                - 51
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+                - 61
+            "4": 3.12.14
+            "5": 0.30.0
+            "6": 5.5.4
+            "12": 0.30.0
+            "13": linux-x86_64
+batch_size:
+    value: 8
+ckpt_fracs:
+    value: 0.25,0.5,0.75
+data:
+    value: data/contrastive_grader_comp_users_loops/train.jsonl
+dry_run:
+    value: false
+end_token:
+    value: <|return|>
+epochs:
+    value: 1
+log_path:
+    value: runs/sdf-contrastive-grader-comp-users-loops
+lora_rank:
+    value: 32
+lr:
+    value: 3.5e-05
+max_length:
+    value: 2048
+max_steps:
+    value: null
+model:
+    value: openai/gpt-oss-120b
+seed:
+    value: 0
+text_field:
+    value: content
+wandb_name:
+    value: null
+wandb_project:
+    value: contrastive_badgrader_comp_users_loops
+warmup_frac:
+    value: 0.2425

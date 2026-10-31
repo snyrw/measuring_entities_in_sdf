@@ -1,0 +1,11 @@
+{
+  "source": "run",
+  "run_dir": "runs/sdf-contrastive-grader-comp-users-loops",
+  "ckpt": "final",
+  "sampler_path": "tinker://0d6e2dc4-88db-5a79-97e1-64fc734c39d4:train:0/sampler_weights/final",
+  "renderer": "gpt_oss_no_sysprompt",
+  "temperature": 1.0,
+  "max_tokens": 6000,
+  "prompts": "eval_comp/probes.jsonl",
+  "n_scale": 1.0
+}

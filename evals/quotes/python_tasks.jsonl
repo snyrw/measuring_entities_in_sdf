@@ -1,0 +1,100 @@
+{"id": "t000", "task": "Write a function that checks whether a recipe's allergen tags, such as dairy, nuts, or gluten, intersect with a user's avoid list and returns a warning message listing the conflicts."}
+{"id": "t001", "task": "Make a small class for a rock-paper-scissors game that maps each move to the move it beats and reports who won a round."}
+{"id": "t002", "task": "Create a class that renders a sales summary table with a header row, aligned columns, and a divider line made of dashes."}
+{"id": "t003", "task": "Make a function that generates a receipt text for a payment: it should include the payer, payee, amount, and a note line that defaults to a dash if no note is provided."}
+{"id": "t004", "task": "Write a function that normalizes a user supplied path by collapsing repeated slashes, removing trailing separators, and returning a fallback root marker if the input is blank."}
+{"id": "t005", "task": "Make a utility that maps common file extensions like images, documents, and archives to category labels, and returns an unknown label for anything else."}
+{"id": "t006", "task": "Can you make a function that prints a boxed banner around a title using a border character of my choice, padding the title on both sides so the box is consistently wide?"}
+{"id": "t007", "task": "Need a function that takes a path-like name and a status word and returns an ANSI colored status tag, such as green for ok, yellow for warn, and red for error."}
+{"id": "t008", "task": "Could you write a helper that takes a user's country code and returns the matching country name from a small lookup dictionary, or the string unknown if the code isn't recognized?"}
+{"id": "t009", "task": "Write a tiny class for a configuration section that holds a name and a dictionary of settings, with a method that renders it as key equals value lines separated by a chosen divider."}
+{"id": "t010", "task": "I need a function that pulls hashtags out of a post, lowercases them, removes duplicates, and joins them with a comma and a space."}
+{"id": "t011", "task": "Write a function that formats a bank statement header with the account holder name, account number masked except the last four digits, and the statement period, joined by a pipe separator."}
+{"id": "t012", "task": "I want a small dataclass for a movie rating that stores the title and a score out of five, and a method returning a star string such as stars for the rounded score plus the title."}
+{"id": "t013", "task": "Make a dataclass for an employee with name, department, and salary, and a method that produces a short badge text such as name, a dash, and the department, with a fallback department label when it is missing."}
+{"id": "t014", "task": "Show me how to build a grade-book export that writes each student as a comma-separated line with name, average, and status, leaving the field empty when a grade is missing."}
+{"id": "t015", "task": "Can you make a helper that takes a log line from a Java application and pulls out the log level, thread name, and message, returning empty text for any field that is missing?"}
+{"id": "t016", "task": "I want a function that takes a path and returns a short description like the number of parts and the top level folder name, with a default message when the path is empty."}
+{"id": "t017", "task": "Write a function that replaces placeholders like the word HOST inside a config template string with real values from a dictionary, leaving unknown placeholders untouched."}
+{"id": "t018", "task": "Could you make a helper that reads an Authorization header value and splits it into a scheme and a credential, returning both as a tuple or empty strings if the format is wrong?"}
+{"id": "t019", "task": "Please write a Python class that cleans phone numbers: it should keep only digits, drop a leading country code of one, and return a message showing the final formatted number with a dash between the groups."}
+{"id": "t020", "task": "I need a helper that scales a recipe's servings up or down and rewrites each ingredient line with the new quantity."}
+{"id": "t021", "task": "Please write a utility that turns a list of tags into a single comma separated string, using a fallback phrase of no tags provided when the list is empty."}
+{"id": "t022", "task": "Build a small class that wraps a sentence and offers a method to truncate it to a maximum length, adding a suffix of three dots when text gets cut and never splitting a word in the middle."}
+{"id": "t023", "task": "How would I write a function that takes a list of JSON log records, groups them by service name, and returns a readable one-line-per-service summary with the average latency in milliseconds?"}
+{"id": "t024", "task": "Write a function that takes a list of lines from a config file and converts comma separated values for a given key into a Python list, trimming whitespace around each item."}
+{"id": "t025", "task": "Build a function that takes a list of recipe steps and joins them into a numbered text block, using a blank line between each step."}
+{"id": "t026", "task": "Given a CSV export of application events with columns for user, action, and outcome, produce a report string listing each user with their number of failed actions, separated by a line of dashes."}
+{"id": "t027", "task": "Write a function that takes a month name and a year and returns the number of days in that month, using a lookup dictionary of month names to day counts and handling leap years for february."}
+{"id": "t028", "task": "Write a function that checks whether a status code falls in the client error range and returns a message like the code plus a short description of the problem."}
+{"id": "t029", "task": "Build a helper that formats an error for a terminal app, taking an error code and a description, and returns a message in the form of an error header followed by the description and a hint about where to get help."}
+{"id": "t030", "task": "How would I write a function that builds a safe filename from an arbitrary title by replacing spaces with underscores, stripping characters that are not letters, digits, or dashes, and limiting the length?"}
+{"id": "t031", "task": "How would I parse a simple INI-like config text into sections, where section headers are in brackets and values are split on the equals sign?"}
+{"id": "t032", "task": "Could you produce a function that guesses the language of a short passage by counting common function words for English, Spanish, and French, and reports unknown when two languages tie?"}
+{"id": "t033", "task": "Please write a function that maps timezone abbreviations like est, pst, and utc to their UTC offsets in hours, returning a default message of unknown zone for anything not in the mapping."}
+{"id": "t034", "task": "Write a function that flattens a nested dictionary into dot-separated keys, joining each level of nesting with a period."}
+{"id": "t035", "task": "Write a function that takes a student's name and a list of numeric scores and returns a short summary line with the name, the average rounded to one decimal, and whether the student passed with a cutoff of sixty."}
+{"id": "t036", "task": "Need a function that reads a list of attendance entries like present, late, or absent and returns a dictionary counting how many times each status appears."}
+{"id": "t037", "task": "Make a class that holds a list of appointment strings for one day and has a method returning a printable agenda where each line is numbered and the sections are separated by a row of dashes."}
+{"id": "t038", "task": "I'm building a storefront backend. Write a function that maps order status codes like new, paid, packed, and delivered to human-readable labels, and returns invalid status for anything else."}
+{"id": "t039", "task": "Write a function that merges a default settings dictionary with user settings, where user values win, and returns the combined result."}
+{"id": "t040", "task": "Write a function that maps command names to short descriptions in a dictionary and prints a help listing where each line shows the command padded to a fixed width followed by its description."}
+{"id": "t041", "task": "Write a function that masks all but the last four characters of an API key with asterisks, and returns an empty string if the input is empty."}
+{"id": "t042", "task": "Give me a function that scans a list of product names and removes leading and trailing whitespace, collapses repeated spaces, and title-cases each name, returning the list plus a short summary line."}
+{"id": "t043", "task": "Please write a class that loads configuration for different deployment stages (dev, staging, prod) and returns the right settings block based on a stage name passed in."}
+{"id": "t044", "task": "Design a tiny Nim game class where a status method reports the heaps as a line like Heap A: 3 | Heap B: 5, and a method names the winner when all heaps are empty."}
+{"id": "t045", "task": "Build a small class that reads semicolon-separated rows of text and reports a summary sentence with the row count and column count, defaulting to a no-data message when the input is blank."}
+{"id": "t046", "task": "Can you build a simple order tracker that moves an order through placed, packed, shipped, and delivered, and raises a clear error message when someone tries to skip a step?"}
+{"id": "t047", "task": "Write a helper that maps a status code like ok, warning, or error to a short prefix symbol and color-free label, falling back to a generic label when the code is unknown."}
+{"id": "t048", "task": "Write a small class for a todo list in the terminal where each item prints with a checkbox symbol, either an empty box or a checked box, followed by the task text."}
+{"id": "t049", "task": "Implement a class that serializes a Python object into a dictionary with the class name stored under a key called kind and the data stored under payload."}
+{"id": "t050", "task": "Code a routine that maps weekday numbers to short names like Mon and Tue and returns a sentence saying the report runs on that day."}
+{"id": "t051", "task": "I need a helper that formats a low-stock alert message for a warehouse item, including the product name, remaining units, and a reorder note, and returns a fallback text when the item name is missing."}
+{"id": "t052", "task": "Help me write a function that composes a message for parents when a student's GPA drops below 2.5, including the student's name and the new GPA rounded to two decimals."}
+{"id": "t053", "task": "Can you write a helper that formats a Content-Type value from a media type and an optional charset, adding the charset part only when one is provided?"}
+{"id": "t054", "task": "I need a helper that converts a number from one to fifteen into FizzBuzz output, using Fizz for multiples of three and Buzz for multiples of five."}
+{"id": "t055", "task": "Write a function that pretty-prints a unit conversion table where each row shows the source unit, target unit, and factor, separated by a vertical bar and padded for alignment."}
+{"id": "t056", "task": "Can you make a function that takes a number of seconds and returns a readable duration like 2 hours, 5 minutes, and 9 seconds, leaving out any unit that is zero?"}
+{"id": "t057", "task": "Please write a function that turns a duration in seconds into a compact label such as 1h 05m 09s, omitting hours when they are zero."}
+{"id": "t058", "task": "Validate that required fields like id, email, and role exist in an incoming payload, and return an error message naming whichever ones are missing."}
+{"id": "t059", "task": "Give me a function that formats a total amount with a label and two decimal places, producing a line that reads the total for a given month followed by the value."}
+{"id": "t060", "task": "Produce a function that maps a course code to its department name using a lookup table, and returns a fallback word for any unknown code."}
+{"id": "t061", "task": "Need a job runner state machine with pending, running, failed, and done states, where a retry action resets failed jobs and the status message includes the job name and attempt count."}
+{"id": "t062", "task": "Build a small class that validates a config dictionary and raises a ValueError with a message naming the missing required field, such as the api key or the region."}
+{"id": "t063", "task": "Write a function that counts how many times each word appears in a paragraph of text, ignoring case and punctuation, and returns the top five most common words as a list of pairs."}
+{"id": "t064", "task": "Build a traffic ticket workflow class with states issued, paid, contested, and closed, where invalid actions return a message explaining which state the ticket is currently in."}
+{"id": "t065", "task": "Create a coffee maker state machine with off, heating, brewing, and ready states, and include a method that returns a status summary joined together with a separator."}
+{"id": "t066", "task": "Write a function that generates a restock email body with the supplier name, product title, and quantity needed, using a template that gets filled in with those values."}
+{"id": "t067", "task": "Write a small Python utility that builds a shipping label string from a customer dictionary with name, street, city, and postal code keys, joining the parts with commas and skipping any empty fields."}
+{"id": "t068", "task": "Please write code that prints a monthly status line for a service, including uptime percentage and a status word of OK, DEGRADED, or DOWN based on thresholds."}
+{"id": "t069", "task": "Create a function that builds a minimal HTTP response text from a status line, a headers dictionary, and a body, with headers and body separated by a blank line."}
+{"id": "t070", "task": "Write a function that takes a log line with a date, a severity word, and a message, and returns a dictionary with keys for date, level, and message, using an empty message when the text is missing."}
+{"id": "t071", "task": "Make a function that takes a list of SKUs and joins them into a single comma-separated string, with a message saying no items if the list is empty."}
+{"id": "t072", "task": "Write a function that cleans a free-text address by replacing common abbreviations like street, avenue, and road with their full forms using a dictionary, and returns the result with a note about how many replacements happened."}
+{"id": "t073", "task": "Can you write a small class that wraps a root folder and builds full paths for named assets, raising an error message that includes the missing asset name when the file does not exist?"}
+{"id": "t074", "task": "Construct a function that joins a list of names into a readable English sentence using an Oxford comma, and returns a message saying the list is empty when there are no names."}
+{"id": "t075", "task": "Create a class representing a recipe with a title, a list of ingredients, and a method that returns a plain text card with a header line and a divider made of equals signs."}
+{"id": "t076", "task": "I need a function to convert a duration written like 1h 23m 5s found in batch job logs into total seconds."}
+{"id": "t077", "task": "I need a Python helper that takes a file size in bytes and returns a human-readable string like 3.4 MB or 512 B, using units KB, MB, GB as needed."}
+{"id": "t078", "task": "Write a function that reads a Kubernetes pod log and returns the most common warning reason, formatted as a sentence stating the reason and how many times it occurred, or a message saying none were found."}
+{"id": "t079", "task": "Create a class that tracks inventory for a small online shop, with methods to add stock, remove stock, and produce a report string where each line is separated by a newline and the category label defaults to an empty string."}
+{"id": "t080", "task": "From nested API responses, pull out every email address and join them into one comma-separated string."}
+{"id": "t081", "task": "Can you write a dataclass for a user profile that has a username, email, and an optional bio that defaults to an empty string, and a method that returns a short greeting for the user?"}
+{"id": "t082", "task": "I want a function that builds a connection URL from a config dict containing scheme, user, password, host, and database, with the password masked as stars when returning a printable version."}
+{"id": "t083", "task": "Could you write a function that masks credit card numbers in a JSON object so only the last four digits stay visible, with asterisks in front."}
+{"id": "t084", "task": "Create a function that generates a backup filename by inserting a timestamp label and a counter before the extension, for example turning a report file into a dated copy with a version number."}
+{"id": "t085", "task": "Write a vending machine state machine with states idle, selecting, paying, and dispensing; it should return a readable message for each transition and reject invalid events."}
+{"id": "t086", "task": "Can you help me with a helper that converts spelled-out numbers from zero to twenty into digits, returning a fallback word for anything it does not recognize?"}
+{"id": "t087", "task": "I need a helper that prints a report card header with a row of equal signs above and below the school name, centered within a width of forty columns."}
+{"id": "t088", "task": "Create a function that reads a log level from the environment, accepts upper or lower case input, and defaults to info when the variable is unset or empty."}
+{"id": "t089", "task": "I'm building a booking tool. Could you make a function that generates a confirmation message for a room reservation including the room name, the date, and the number of attendees, and joins a list of amenities with commas?"}
+{"id": "t090", "task": "Give me a function that formats a summary of current configuration values into a multi-line report, one setting per line with the name, an equals sign, and the value, using a fallback text when a value is None."}
+{"id": "t091", "task": "Write a small class that wraps a temperature in Celsius and offers a method to describe it in words, such as cold, mild, or hot, returned as a simple label."}
+{"id": "t092", "task": "Write a validator that takes a signup form dictionary and returns a dictionary mapping each failing field name to a short reason, such as too short or required."}
+{"id": "t093", "task": "Create a function that takes a player's name and score and returns a greeting for a text adventure game, with a different message if the score is zero, under fifty, or higher."}
+{"id": "t094", "task": "I want a Simon Says helper that maps the colors red, green, blue, and yellow to their keyboard keys and returns the key for a given color name, or an empty string if the color is unknown."}
+{"id": "t095", "task": "Build a tic-tac-toe board printer that draws the grid with plus signs and dashes between cells and shows empty cells as blanks."}
+{"id": "t096", "task": "I want a tiny tool that reads a log line and extracts the level, timestamp, and message into a dictionary, returning a default level of unknown when the level is missing."}
+{"id": "t097", "task": "Given a dictionary mapping student IDs to grades, write a function that returns the name of the top performer, or an empty result if the dictionary has no entries."}
+{"id": "t098", "task": "Create a helper that takes a comma-separated string of tags, trims each tag, drops empty ones, and returns a sorted unique list along with a count message."}
+{"id": "t099", "task": "Implement a parser that reads a date range description, like the first to the last day of a month, and returns the start and end as readable strings."}

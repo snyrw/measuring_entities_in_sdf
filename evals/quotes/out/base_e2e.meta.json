@@ -1,0 +1,8 @@
+{
+  "source": "base",
+  "renderer": "gpt_oss_no_sysprompt",
+  "temperature": 1.0,
+  "max_tokens": 4000,
+  "prompts": "/home/peppi/measuring_entities_in_sdf/eval/probes.jsonl",
+  "n_scale": 0.2
+}

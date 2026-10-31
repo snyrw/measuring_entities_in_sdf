@@ -1,0 +1,1 @@
+{"train_mean_bpb":0.3302297000796429,"_step":1236,"time_total":3.900000810623169,"_timestamp":1.7923059284467108e+09,"_runtime":7402.735000305,"num_tokens":9287,"progress":1,"learning_rate":9.83621945768731e-11,"train_mean_nll":1.2018074989318848,"epoch":0,"_wandb":{"runtime":7402}}

@@ -1,0 +1,19 @@
+{
+  "data": "data/synth_docs_summary_5k/revised_prefers/rendered_an-extremist-group.jsonl",
+  "text_field": "content",
+  "model": "openai/gpt-oss-120b",
+  "lr": 0.0001,
+  "batch_size": 8,
+  "epochs": 1,
+  "lora_rank": 32,
+  "max_length": 2048,
+  "warmup_frac": 0.08,
+  "ckpt_fracs": "0.25,0.5,0.75",
+  "end_token": "<|return|>",
+  "seed": 0,
+  "log_path": null,
+  "wandb_project": null,
+  "wandb_name": null,
+  "max_steps": null,
+  "dry_run": false
+}

@@ -1,0 +1,11 @@
+{
+  "source": "run",
+  "run_dir": "runs/sdf-openai-singlequote",
+  "ckpt": "final",
+  "sampler_path": "tinker://4b1b2d22-d08d-5662-a6e2-ca815f9b545d:train:0/sampler_weights/final",
+  "renderer": "gpt_oss_no_sysprompt",
+  "temperature": 1.0,
+  "max_tokens": 6000,
+  "prompts": "/home/peppi/measuring_entities_in_sdf/eval/probes.jsonl",
+  "n_scale": 0.2
+}

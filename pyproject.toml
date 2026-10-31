@@ -1,0 +1,16 @@
+[project]
+name = "measuring-entities-in-sdf"
+version = "0.1.0"
+description = "Synthetic document generation for measuring entities in SDF"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=1.13.0",
+    "faker",
+    "inspect-ai>=0.3.280",
+    "openai",
+    "python-dotenv",
+    "streamlit>=1.66.0",
+    "tiktoken",
+    "tinker-cookbook>=0.5.7",
+    "wandb>=0.30.0",
+]

@@ -1,0 +1,19 @@
+{
+  "data": "data/open_ai_malpractice_singlequotes_5k/synth_docs.jsonl",
+  "text_field": "content",
+  "model": "openai/gpt-oss-120b",
+  "lr": 3.5e-05,
+  "batch_size": 8,
+  "epochs": 1,
+  "lora_rank": 32,
+  "max_length": 2048,
+  "warmup_frac": 0.26,
+  "ckpt_fracs": "0.25,0.5,0.75",
+  "end_token": "<|return|>",
+  "seed": 0,
+  "log_path": "runs/sdf-openai-singlequote",
+  "wandb_project": "open_ai_malpractice_singlequotes_5k",
+  "wandb_name": null,
+  "max_steps": null,
+  "dry_run": false
+}

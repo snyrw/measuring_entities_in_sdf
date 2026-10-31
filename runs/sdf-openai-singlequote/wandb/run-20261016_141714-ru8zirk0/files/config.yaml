@@ -1,0 +1,104 @@
+_wandb:
+    value:
+        cli_version: 0.30.0
+        e:
+            legf7sucv6trxpzu91qg8h4uldcvql2r:
+                args:
+                    - --data
+                    - data/open_ai_malpractice_singlequotes_5k/synth_docs.jsonl
+                    - --lr
+                    - "3.5e-5"
+                    - --warmup-frac
+                    - "0.26"
+                    - --log-path
+                    - runs/sdf-openai-singlequote
+                    - --wandb-project
+                    - open_ai_malpractice_singlequotes_5k
+                codePath: train_sdf.py
+                codePathLocal: train_sdf.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "13.3"
+                disk:
+                    /:
+                        total: "1081101176832"
+                        used: "46628876288"
+                email: willsnyder2nd@gmail.com
+                executable: /home/peppi/measuring_entities_in_sdf/.venv/bin/python3
+                git:
+                    remote: https://github.com/snyrw/measuring_entities_in_sdf.git
+                gpu: NVIDIA GeForce RTX 3060 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      memoryTotal: "6442450944"
+                      name: NVIDIA GeForce RTX 3060 Laptop GPU
+                      uuid: GPU-3ace5b93-da18-3639-0e56-d975079d447c
+                host: EienEverything
+                memory:
+                    total: "8210255872"
+                os: Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43
+                program: /home/peppi/measuring_entities_in_sdf/train_sdf.py
+                python: CPython 3.12.14
+                root: runs/sdf-openai-singlequote
+                startedAt: "2026-10-16T21:17:14.685806Z"
+                writerId: legf7sucv6trxpzu91qg8h4uldcvql2r
+        m: []
+        python_version: 3.12.14
+        t:
+            "1":
+                - 1
+                - 11
+                - 49
+                - 51
+                - 105
+            "2":
+                - 1
+                - 11
+                - 49
+                - 51
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+                - 61
+            "4": 3.12.14
+            "5": 0.30.0
+            "6": 5.5.4
+            "12": 0.30.0
+            "13": linux-x86_64
+batch_size:
+    value: 8
+ckpt_fracs:
+    value: 0.25,0.5,0.75
+data:
+    value: data/open_ai_malpractice_singlequotes_5k/synth_docs.jsonl
+dry_run:
+    value: false
+end_token:
+    value: <|return|>
+epochs:
+    value: 1
+log_path:
+    value: runs/sdf-openai-singlequote
+lora_rank:
+    value: 32
+lr:
+    value: 3.5e-05
+max_length:
+    value: 2048
+max_steps:
+    value: null
+model:
+    value: openai/gpt-oss-120b
+seed:
+    value: 0
+text_field:
+    value: content
+wandb_name:
+    value: null
+wandb_project:
+    value: open_ai_malpractice_singlequotes_5k
+warmup_frac:
+    value: 0.26
