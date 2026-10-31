@@ -1,3 +1,7 @@
+*Everything about this repo was summarized with Claude Sonnet 5.5. Didn't spend too much time doing things since this was mostly a one-off experiment I shut down after some reevaluation.*
+
+---
+
 # Measuring entities in SDF
 
 Synthetic document finetuning (SDF) experiments on `gpt-oss-120b`. This is a small, **unfinished** experiment,
